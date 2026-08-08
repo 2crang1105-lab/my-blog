@@ -2,55 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>어느 미친 인간의 지극히 사적인 공간</title>
-    <link>http://localhost:50570/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on 어느 미친 인간의 지극히 사적인 공간</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Tue, 04 Aug 2020 23:42:49 +0900</lastBuildDate>
-    <atom:link href="http://localhost:50570/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>유서를 쓰게 된다면</title>
-      <link>http://localhost:50570/posts/00001/</link>
-      <pubDate>Tue, 04 Aug 2020 23:42:49 +0900</pubDate>
-      <guid>http://localhost:50570/posts/00001/</guid>
-      <description>&lt;p&gt;미안해요.&lt;/p&gt;
-&lt;p&gt;하지만 난 당신들의 태도에 질렸고, 이해할 수도 없고, 이해하고 싶지도 않아요.&lt;/p&gt;
-&lt;p&gt;살아만 있어준다면, 내가 현실에서 얼마나 상처를 받든 그딴 건 상관 없는 건가요?&lt;/p&gt;
-&lt;p&gt;당신들이 날 사랑해주니까, 난 내 마음대로 죽을 권리도 가져선 안 되나요?&lt;/p&gt;
-&lt;p&gt;더는 당신들의 훌륭한 훈계도 듣고 싶지 않고, 항상 나만 사과해야 하는 것도 지쳤어요.&lt;/p&gt;
-&lt;p&gt;그래요, 난 주어진 것에 감사할 줄 모르는 비겁하고 이기적인 인간이에요. 그런데 그게 그렇게 잘못 한 건가요? 그러면 난 왜 행복하지 못했던 건가요?&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>방</title>
-      <link>http://localhost:50570/posts/00002/</link>
-      <pubDate>Tue, 04 Aug 2020 23:42:45 +0900</pubDate>
-      <guid>http://localhost:50570/posts/00002/</guid>
-      <description>&lt;p&gt;사나운 소음이 없다.&lt;!-- raw HTML omitted --&gt;
-폭력적인 빛이 없다.&lt;!-- raw HTML omitted --&gt;
-역겨운 온기가 없다.&lt;/p&gt;
-&lt;p&gt;오직, 상냥하고 포근한 어둠으로 가득 차 있다.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;</description>
-    </item>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:50570/search/</link>
+      <link>http://localhost:1313/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50570/search/</guid>
+      <guid>http://localhost:1313/search/</guid>
       <description></description>
     </item>
     <item>
       <title>너무나도 작고 초라한 나의 공간에 찾아 온 당신에게</title>
-      <link>http://localhost:50570/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50570/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>about</description>
     </item>
     <item>
       <title>허망하기 그지 없는 나의 목소리를 듣고자 하는 당신에게</title>
-      <link>http://localhost:50570/music/</link>
+      <link>http://localhost:1313/music/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50570/music/</guid>
+      <guid>http://localhost:1313/music/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;▶ &lt;a href=&#34;https://www.youtube.com/@c_rang1647&#34;&gt;C_RANG YouTube (https://www.youtube.com/@c_rang1647)&lt;/a&gt;&lt;/p&gt;</description>
     </item>

@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on 어느 미친 인간의 지극히 사적인 공간</title>
-    <link>http://localhost:50570/tags/</link>
+    <link>http://localhost:59539/tags/</link>
     <description>Recent content in Tags on 어느 미친 인간의 지극히 사적인 공간</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
-    <atom:link href="http://localhost:50570/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:59539/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
