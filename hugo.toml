@@ -1,0 +1,41 @@
+baseURL = "https://example.org/"
+languageCode = "ko-kr"
+title = "어느 미친 인간의 지극히 사적인 공간"
+theme = "PaperMod"
+
+[params]
+  disableThemeToggle = true # 다크모드/라이트모드 버튼 비활성화
+
+[params.profileMode]
+  enabled = true
+  title = "C_RANG"
+  subtitle = "어느 미친 인간의 지극히 사적인 공간"
+
+  # static 폴더 안에 넣은 메인 이미지
+  imageUrl = "/CR Banner.JPG"
+  imageWidth = 600
+  imageTitle = "C_RANG logo"
+
+# 사이드바 최상단 로고 설정
+[params.label]
+  text = " "            # <-- 빈 문자열("") 대신 공백 한 칸(" ")을 넣어 기본 title 대체를 막습니다.
+  icon = "/CR-png.png"
+  iconHeight = 80
+
+[[menu.main]]
+  name = "너무나도 작고 초라한 나의 공간에 찾아온 당신에게"
+  url = "/about/"
+  weight = 1
+
+[[menu.main]]
+  name = "나의 불쾌하기 짝이 없는 푸념을 듣고자 찾아온 당신에게"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "허망하기 그지없는 나의 목소리를 듣고자 하는 당신에게"
+  url = "/music/"
+  weight = 3
+
+  [outputs]
+  home = ["HTML", "RSS", "JSON"]

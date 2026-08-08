@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:50570/posts/</loc>
+    <lastmod>2020-08-04T23:42:49+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:50570/</loc>
+    <lastmod>2020-08-04T23:42:49+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:50570/posts/00001/</loc>
+    <lastmod>2020-08-04T23:42:49+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:50570/posts/00002/</loc>
+    <lastmod>2020-08-04T23:42:45+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:50570/search/</loc>
+  </url><url>
+    <loc>http://localhost:50570/categories/</loc>
+  </url><url>
+    <loc>http://localhost:50570/tags/</loc>
+  </url><url>
+    <loc>http://localhost:50570/about/</loc>
+  </url><url>
+    <loc>http://localhost:50570/music/</loc>
+  </url>
+</urlset>

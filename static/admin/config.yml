@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: 2crang1105-lab/my-blog
+  branch: master
+
+media_folder: "static/images"
+public_folder: "/images"
+
+collections:
+  - name: "posts"
+    label: "포스트(글 목록)"
+    folder: "content/posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "제목", name: "title", widget: "string" }
+      - { label: "발행일", name: "date", widget: "datetime" }
+      - { label: "임시저장 여부(Draft)", name: "draft", widget: "boolean", default: false }
+      - { label: "본문 내용", name: "body", widget: "markdown" }

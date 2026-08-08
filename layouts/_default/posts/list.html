@@ -1,0 +1,57 @@
+{{- define "main" }}
+
+{{- if .Title }}
+<header class="page-header" style="display: flex !important; justify-content: space-between !important; align-items: center !important; width: 100% !important; margin-bottom: 2rem;">
+  <h1 style="margin: 0;">{{ .Title }}</h1>
+  
+  <!-- 단색 SVG 픽토그램 아이콘을 적용한 우측 검색창 -->
+  <form action="/search/" method="get" style="display: flex; align-items: center; margin: 0;">
+    <div style="position: relative; display: flex; align-items: center;">
+      <input type="text" name="q" placeholder="검색어를 입력하세요..." 
+             style="padding: 6px 35px 6px 12px; border: 1px solid var(--tertiary); border-radius: 4px; background: var(--entry); color: var(--primary); font-size: 0.85rem; width: 200px; outline: none;">
+      <button type="submit" aria-label="Search" style="position: absolute; right: 8px; background: none; border: none; cursor: pointer; padding: 0; display: flex; align-items: center; justify-content: center;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--secondary);">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </button>
+    </div>
+  </form>
+</header>
+{{- end }}
+
+{{- if .Content }}
+<div class="post-content">
+  {{- if not .Title }}
+  <h1>{{ .Title }}</h1>
+  {{- end }}
+  {{- .Content }}
+</div>
+{{- end }}
+
+{{- $pages := .Pages }}
+{{- $paginator := .Paginate $pages }}
+
+{{- range $index, $page := $paginator.Pages }}
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>
+      <a href="{{ $page.Permalink }}">{{ $page.Title }}</a>
+    </h2>
+  </header>
+  {{- if not $page.Params.hideSummary }}
+  <div class="entry-content">
+    <p>{{ $page.Summary | plainify | htmlUnescape }}{{ if $page.Truncated }}...{{ end }}</p>
+  </div>
+  {{- end }}
+  {{- if not ($page.Param "hideMeta") }}
+  <footer class="entry-footer">
+    {{- partial "post_meta.html" $page -}}
+  </footer>
+  {{- end }}
+</article>
+
+{{- end }}
+
+{{- end }}

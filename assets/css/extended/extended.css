@@ -1,0 +1,119 @@
+/* 1. 메인 프로필 로고 이미지 모서리 둥글게 제거 및 비율 유지 */
+.profile_inner img {
+    border-radius: 0 !important;
+    height: auto !important;
+    object-fit: contain;
+}
+
+/* 2. 사이드바 영역 고정 및 너비 설정 (280px 기준) */
+header.header {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 280px !important;
+    height: 100vh !important;
+    background-color: #121212 !important;
+    padding: 40px 0 !important;
+    box-sizing: border-box !important;
+    z-index: 1000 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+
+/* 3. 사이드바 구조 */
+.nav {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+}
+
+/* 4. 사이드바 최상단 로고 영역 설정 */
+.nav .logo {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+/* <a> 태그 속의 순수 텍스트만 투명화 + 크기 0 처리 (text-indent 금지) */
+.nav .logo a {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    font-size: 0 !important;          /* 텍스트 크기 0 */
+    line-height: 0 !important;        /* 텍스트 높이 0 */
+    color: transparent !important;     /* 텍스트 투명화 */
+    text-decoration: none !important;
+}
+
+/* 이미지(img)는 정상 규격으로 복구하여 출력 */
+.nav .logo img {
+    display: block !important;
+    height: 80px !important;           /* 로고 이미지 높이 지정 */
+    width: auto !important;
+    max-width: 100% !important;
+    border-radius: 0 !important;
+    object-fit: contain !important;
+    margin: 0 auto !important;
+}
+
+/* 5. 다크모드 버튼 숨김 */
+#theme-toggle {
+    display: none !important;
+}
+
+/* 6. 사이드바 메뉴 설정 */
+#menu {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 18px !important;
+    padding: 0 24px !important;
+    margin: 28px 0 0 0 !important;
+    list-style: none !important;
+    overflow: visible !important;
+    white-space: normal !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+#menu li {
+    width: 100% !important;
+}
+
+#menu a {
+    display: block !important;
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+    word-break: keep-all !important;
+    text-align: left !important;
+}
+
+/* 7. 메인 본문 영역 위치 고정 */
+main.main {
+    margin-left: 280px !important;
+    width: calc(100% - 280px) !important;
+    max-width: none !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-height: 100vh !important;
+}
+/* 페이지 제목과 본문 사이 간격 조정 */
+.post-header {
+    margin-bottom: 80px !important;
+}
+/* 소개글 페이지 내 3단계 제목(###) 위쪽 간격 넓히기 */
+.post-content h3 {
+    margin-top: 50px !important;
+}
+/* 포스트 목록 상단 타이틀 및 우측 요소 배치 */
+.page-header {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
